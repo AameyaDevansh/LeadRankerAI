@@ -1,7 +1,7 @@
-# app.py
+
 import streamlit as st
 import pandas as pd
-from scoring import score_lead      # ← NEW: import your real scorer
+from scoring import score_lead      
 
 # --- basic page setup -------------------------------------------------
 st.set_page_config(page_title="LeadRankerAI", page_icon="🦄")
@@ -21,6 +21,7 @@ if uploaded:
             r.get("Title", ""),
             r.get("Industry", ""),
             r.get("Website", ""),
+            r.get("Company", ""),
         ),
         axis=1,
     )
