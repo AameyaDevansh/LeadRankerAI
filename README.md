@@ -1,6 +1,6 @@
 # LeadRankerAI
 
-A lightweight, AI-inspired lead scoring tool designed to help post-acquisition teams quickly prioritize high-value leads. Built in response to Caprae Capital’s AI-Readiness Challenge.
+A lightweight, AI-inspired lead scoring tool designed to help post-acquisition teams quickly prioritize high-value leads.
 
 ---
 
